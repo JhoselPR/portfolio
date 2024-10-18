@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preload" href="./styles.css" as="style">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header">Félix Jhosel Peñaloza Ruiz</h1>
+    </header>
+    
+    <div class="nav-bar">
+        <nav class="nav-content">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <section class="presentation">
+        <div class="content-presentation">
+            <h2>Fullstack Developer Jr.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eos deleniti placeat itaque repudiandae maiores, quis inventore, ducimus hic at fugiat voluptate nisi modi excepturi ut nihil. Totam, necessitatibus earum.</p>
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/software-developer-coding-on-pc-illustration-download-in-svg-png-gif-file-formats--applied-scientist-application-freelance-engineer-isometric-business-concept-set-42-pack-illustrations-4753660.png" alt="developer-image"/>
+        </div>
+    </section>
+
+    <main>
+        <h2 id="projects">Projects</h2>
+        <div class="projects">
+            <section class="project">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla quam maxime dolorem illo officia repellat possimus iste earum.</p>
+                <button class="button">VIEW</button>
+            </section>
+            <section class="project">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="button">VIEW</button>
+            </section>
+        </div>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                  </svg>
+            </div>
+            <form class="form">
+                <fieldset>
+                    <legend>Contact me</legend>
+                    <div class="container">
+                        <div class="field">
+                            <label>Name</label>
+                            <input class="input-text" type="text" placeholder="Enter your name">
+                        </div>
+
+                        <div class="field">
+                            <label>Email</label>
+                            <input class="input-text" type="email" placeholder="Enter your email">
+                        </div>
+                
+                        <div class="field">
+                            <label>Message</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <input class="button" type="submit" value="SUBMIT">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br>
+    <hr>
+    <br>
+    <footer>
+        <p>&copy 2024. Félix Jhosel Peñaloza Ruiz.</p>
+    </footer>
+</body>
+</html>

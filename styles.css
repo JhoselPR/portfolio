@@ -1,0 +1,123 @@
+:root {
+    --dark: #112D4E;
+    --light: #F9F7F7;
+    --primary: #3F72AF;
+    --secondary: #DBE2EF;
+}
+
+html {
+    font-size: 70%;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 2.8rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+
+.button {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    width: 30%;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--secondary);
+    color: var(--dark)
+}
+
+.nav-bar {
+    background-color: var(--dark);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-content a {
+    text-align: center;
+    color: var(--light);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding: 1rem;
+}
+.nav-content a:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+/**Proyectos**/
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/**Formulario**/
+.form {
+    background-color: var(--primary);
+   width: min( 50rem, 100% );
+    margin: auto;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.form fieldset {
+    border: none;
+}
+.form legend {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--light);
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+.field label {
+    color: var(--light);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+    text-align: left;
+}
+.field textarea {
+    height: 10rem;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
