@@ -251,7 +251,27 @@ span{
     text-shadow: 0 0 25px var(--lightBlue);
 }
 /**Proyectos**/
-
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#projects h2{
+    text-align: center;
+}
+.project img{
+    width: 400px;
+}
+@media (min-width: 768px) {
+    .projects{
+        width: 100rem;
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 4rem;
+    }
+}
 
 /**Contacto**/
 .contact{
@@ -348,6 +368,7 @@ footer ul li{
 footer p{
     margin-top: 20px;
 } 
+
 /**Responsive**/
 /*@media (max-width: 1285px) {
     html{
