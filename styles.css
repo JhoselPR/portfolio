@@ -60,7 +60,7 @@ h3{
 
 }
 .logo span{
-    text-shadow: 0 0 15px var(--lightBlue); /*0 desplazamiento horizontal de la sombra, 0 vertical, 25px desenfoque*/
+    text-shadow: 0 0 25px var(--lightBlue); /*0 desplazamiento horizontal de la sombra, 0 vertical, 25px desenfoque*/
 }
 
 /**Barra de navegación**/
@@ -214,7 +214,7 @@ span{
                 0 0 50px var(--lightBlue);
 }
 .about-content{
-    width: 600px;
+    max-width: 600px;
 }
 .about-content h2{
     font-size: 7rem;
@@ -394,7 +394,7 @@ footer p{
 } 
 
 /**Responsive**/
-/*@media (max-width: 1285px) {
+@media (max-width: 1285px) {
     html{
         font-size: 55%;
     }
@@ -411,30 +411,6 @@ footer p{
     }
 }
 @media (max-width: 895px) {
-    #menu-icon{
-        display: block;
-    }
-    .nav-bar{
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 50%;
-        padding: 1rem 3%;
-        background: var(--almostBlack);
-        border-bottom-left-radius: 2rem;
-        border-left: 2px solid var(--lightBlue);
-        border-bottom: 2px solid var(--lightBlue);
-        display: none;
-    }
-    .nav-bar.active{
-        display: block;
-    }
-    .nav-bar a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-        color: white;
-    }
     .home{
         flex-direction: column;
         margin: 5rem 4rem;
@@ -450,4 +426,54 @@ footer p{
         max-width: 600px;
         margin: 0 auto;
     }
-}*/
+    .home-img img{
+        width: 40vw;
+        margin-top: -2rem;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about-content{
+        margin: 0 2rem 4rem;
+    }
+    .about-content h3{
+        font-size: 4rem;
+    }
+    .about-img img{
+        width: 45vw;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    /*.projects h2{
+        margin-bottom: 3rem;
+    }
+    .projects-container{
+        grid-template-columns: repeat(1,1fr);
+    }*/
+}
+
+@media (max-width: 768px) {
+    #menu-icon{
+        display: block;
+    }
+    .nav-bar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 1em 3em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: rgba(3, 0, 28, 0.7);
+        display: none;
+    }
+    .nav-bar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    .nav-bar.active{
+        display: block;
+    }
+}
