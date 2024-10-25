@@ -277,6 +277,7 @@ span{
     cursor: pointer;
     box-shadow: 0 0 5px var(--lightBlue);
     transition: 0.3s ease;
+    height: 500px;
 }
 .project-card:hover{
     box-shadow: 0 0 15px var(--lightBlue),
@@ -295,6 +296,17 @@ span{
 .project-card p{
     max-width: 300px;
     /*max-width: 450px;*/
+}
+.tags-container{
+    max-width: 290px;
+}
+.tag{
+    padding: 5px 10px;
+    margin-bottom: 0.5rem;
+    border-radius: 1.3rem;
+    color: var(--lightBlue);
+    background: var(--darkBlue);
+    cursor: pointer;
 }
 
 /**Contacto**/
@@ -442,7 +454,6 @@ footer p{
     .about-img img{
         width: 45vw;
         margin-top: 1rem;
-        margin-bottom: 3rem;
     }
     /*.projects h2{
         margin-bottom: 3rem;
@@ -461,17 +472,17 @@ footer p{
         top: 100%;
         right: 0;
         width: 100%;
-        padding: 1em 3em;
+        padding: 1rem 3em;
         display: flex;
         flex-direction: column;
         text-align: center;
-        background: rgba(3, 0, 28, 0.7);
+        background: rgba(3, 0, 28, 0.9);
         display: none;
     }
     .nav-bar a{
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin: 2.5rem 0;
     }
     .nav-bar.active{
         display: block;
