@@ -308,6 +308,27 @@ span{
     background: var(--darkBlue);
     cursor: pointer;
 }
+.project-btn{
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 5px 10px;
+    border-radius: 1.3rem;
+    color: var(--almostBlack);
+    background: var(--lightBlue);
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.project-btn:hover{
+    transform: scale(1.1);
+    background: var(--darkBlue);
+    color: var(--lightBlue);
+}
+.btn-container{
+    width: 100%;
+    text-align: center;
+}
+
 
 /**Contacto**/
 .contact{
@@ -486,5 +507,10 @@ footer p{
     }
     .nav-bar.active{
         display: block;
+    }
+    .about-content p,
+    .about-content h2,
+    .skills{
+        text-align: center;
     }
 }
