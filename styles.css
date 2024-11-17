@@ -533,3 +533,15 @@ footer p{
         text-align: center;
     }
 }
+@media (max-width: 560px) {
+    .about-content h2,
+    h2{
+        font-size: 5rem;
+    }
+    .header{
+        width: 100%;
+    }
+    .about-img img{
+        margin-bottom: -4rem;
+    }
+}
