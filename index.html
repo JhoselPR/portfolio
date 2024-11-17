@@ -16,7 +16,7 @@
 
 <body>
     <header class="header">
-        <a href="#home" class="logo">Jhosel<span>Dev</span></a>
+        <a href="#home" class="logo"><i class='bx bx-code-alt'></i>Jhosel<span>Dev</span></a>
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="nav-bar">
             <a href="#home" class="active">Inicio</a>
@@ -34,8 +34,7 @@
             <h4>¡Hola!👋,</h4>
             <h1>Soy <span>Jhosel Ruiz</span></h1>
             <h3>Java Fullstack Developer Jr.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos maiores culpa aliquam veniam laborum quasi
-                eligendi perferendis.</p>
+            <p>Si te gustaría colaborar o tienes alguna pregunta, no dudes en contactarme. ¡Ansío conectar contigo!</p>
 
             <div class="icons" class="icons-container">
                 <a href="https://www.linkedin.com/in/jhosel/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
@@ -43,16 +42,15 @@
                 <a href="mailto: felix.jhosel@gmail.com"><i class='bx bx-envelope'></i></a>
             </div>
 
-            <a href="/files/FélixPeñaloza_CV.pdf" download="FélixPeñaloza_CV" class="button">Descargar CV</a>
+            <a href="/files/FélixPeñaloza_CV.pdf" class="button" target="_blank">Descargar CV</a>
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="about-content">
             <h2>Sobre mí</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusantium, adipisci mollitia officiis
-                ipsa, rerum hic doloribus error excepturi dolorum possimus maiores neque blanditiis nisi consequatur
-                libero eos! Corrupti, vel!</p>
+            <p>Me llamo Félix Jhosel y tengo 23 años. Mi curiosidad por entender cómo funciona el software que usamos todos los días dio origen a mi pasión por la programación. Desde entonces, disfruto diseñando y desarrollando experiencias web funcionales que aporten valor a las personas.</p>
+            <p>Con formación en Ingeniería en Sistemas Computacionales, he adquirido habilidades tanto técnicas como organizativas, destacándome en el trabajo colaborativo como Project Manager y Scrum Master. Me motiva crear soluciones que combinen tecnología, creatividad e impacto positivo.</p>
 
             <div class="skills">
                 <h3>Skills</h3>
@@ -63,6 +61,8 @@
                     <i class='bx bxl-bootstrap'></i>
                     <i class='bx bxl-java'></i>
                     <i class='bx bxl-spring-boot'></i>
+                    <i class='bx bxl-react' ></i>
+                    <i class='bx bxl-nodejs' ></i>
                 </div>
             </div>
         </div>
@@ -78,31 +78,71 @@
 
         <div class="projects-container">
             <div class="project-card">
-                <img src="/img/Taxi-Runner.png" alt="Taxi-Runner">
+                <img src="/img/Taxi-Runner-menu.png" alt="Taxi-Runner">
+                <div class="tags-container">
+                    <button class="tag">Unity</button>
+                    <button class="tag">C#</button>
+                    <button class="tag">Blender</button>
+                    <button class="tag">Magicavoxel</button>
+                </div>
                 <h3>Taxi-Runner</h3>
                 <p>Videojuego 3D Voxel Art del género endless runner creado en Unity.</p>
-                <div class="button">Ver proyecto</div>
+                <div class="btn-container">
+                    <a href="https://github.com/JhoselPR/TaxiRunner-Chido.git" target="_blank" class="project-btn"><i class='bx bx-code'></i>Code</a>
+                    <a href="https://www.mediafire.com/file/7tweu37ryu98dyn/Taxi-Runner.zip/file" target="_blank" class="project-btn"><i class='bx bx-link-external'></i>Descargar</a>
+                </div>
             </div>
 
             <div class="project-card">
-                <img src="/img/Taxi-Runner_tienda.png" alt="imgTest">
+                <img src="/img/Logo RaícesMX.png" alt="lading page RaícesMX" width="200px">
+                <div class="tags-container">
+                    <button class="tag">HTML</button>
+                    <button class="tag">CSS</button>
+                    <button class="tag">Bootstrap</button>
+                    <button class="tag">Javascript</button>
+                    <button class="tag">React</button>
+                    <button class="tag">Java</button>
+                    <button class="tag">Spring Boot</button>
+                    <button class="tag">MySQL</button>
+                </div>
                 <h3>RaícesMX</h3>
                 <p>E-commerce de alimentos saludables a domicilio.</p>
-                <div class="button">Ver proyecto</div>
+                <div class="btn-container">
+                    <a href="https://github.com/VillanuevaAqui/raicesMx.git" target="_blank" class="project-btn"><i class='bx bx-code'></i>Code</a>
+                    <a href="#" target="_blank" class="project-btn"><i class='bx bx-link-external'></i>Website</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/space-app.png" alt="lading page space-app">
+                <div class="tags-container">
+                    <button class="tag">HTML</button>
+                    <button class="tag">CSS</button>
+                    <button class="tag">Javascript</button>
+                    <button class="tag">React</button>
+                </div>
+                <h3>space-app</h3>
+                <p>Aplicación web que permite conocer datos del espacio en tiempo real.</p>
+                <div class="btn-container">
+                    <a href="https://github.com/JhoselPR/space-app.git" target="_blank" class="project-btn"><i class='bx bx-code'></i>Code</a>
+                    <a href="#" target="_blank" class="project-btn"><i class='bx bx-link-external'></i>Website</a>
+                </div>
             </div>
 
             <div class="project-card">
                 <img src="img/Taxi-Runner.png" alt="">
-                <h3>Proyecto 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="button">Ver proyecto</div>
-            </div>
-
-            <div class="project-card">
-                <img src="img/Taxi-Runner.png" alt="">
+                <!-- <div class="tags-container">
+                    <button class="tag">HTML</button>
+                    <button class="tag">CSS</button>
+                    <button class="tag">Javascript</button>
+                    <button class="tag">React</button>
+                </div> -->
                 <h3>Proyecto 4</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="button">Ver proyecto</div>
+                <div class="btn-container">
+                    <a href="#" target="_blank" class="project-btn"><i class='bx bx-code'></i>Code</a>
+                    <a href="#" target="_blank" class="project-btn"><i class='bx bx-link-external'></i>Website</a>
+                </div>
             </div>
         </div>
 
@@ -112,15 +152,21 @@
 
     <section class="contact" id="contact">
         <div class="contact-container">
-            <h2>Contacto</h2>
-            <form action="#">
+            <h2>¡Contáctame!</h2>
+            <form method="POST" id="form">
+                <input type="hidden" name="access_key" value="6ff243a1-3818-4b29-8bd4-4cb05bc84cd5">
                 <div class="input-box">
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Asunto">
+                    <input type="text" placeholder="Nombre completo" name="name" class="item" required>
+                    <!-- <div class="error-txt">Nombre completo no puede estar vacío</div> -->
+                    <input type="email" placeholder="Email" class="item" name="email" required>
+                    <!-- <div class="error-txt">Email no puede estar vacío</div> -->
+                    <input type="text" placeholder="Asunto" class="item" name="subject" required>
+                    <!-- <div class="error-txt">Asunto no puede estar vacío</div> -->
                 </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <textarea name="message" class="item" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                <!-- <div class="error-txt">Mensaje no puede estar vacío</div> -->
                 <input type="submit" value="Enviar" class="button">
+                <div id="result"></div>
             </form>
         </div>
     </section>
@@ -145,6 +191,7 @@
         <p>&copy; Félix Jhosel Peñaloza Ruiz. Todos los derechos reservados.</p>
     </footer>
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
