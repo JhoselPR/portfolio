@@ -372,6 +372,25 @@ textarea{
 .contact-container{
     margin-top: 3rem;
 }
+
+/* form .error-txt,
+form .input-box .error-txt{
+    font-size: 1.4rem;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    width: 100%;
+    display: none;
+}
+form.error .item,
+form.error .input-box .item{
+    border-color: #d93025;
+} 
+form.error .error-txt,
+form.error .input-box .error-txt{
+    display: block;
+} */
+
 /**Footer**/
 footer{
     position: relative;

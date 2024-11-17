@@ -152,15 +152,21 @@
 
     <section class="contact" id="contact">
         <div class="contact-container">
-            <h2>Contacto</h2>
-            <form action="#">
+            <h2>¡Contáctame!</h2>
+            <form method="POST" id="form">
+                <input type="hidden" name="access_key" value="6ff243a1-3818-4b29-8bd4-4cb05bc84cd5">
                 <div class="input-box">
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Asunto">
+                    <input type="text" placeholder="Nombre completo" name="name" class="item" required>
+                    <!-- <div class="error-txt">Nombre completo no puede estar vacío</div> -->
+                    <input type="email" placeholder="Email" class="item" name="email" required>
+                    <!-- <div class="error-txt">Email no puede estar vacío</div> -->
+                    <input type="text" placeholder="Asunto" class="item" name="subject" required>
+                    <!-- <div class="error-txt">Asunto no puede estar vacío</div> -->
                 </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <textarea name="message" class="item" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                <!-- <div class="error-txt">Mensaje no puede estar vacío</div> -->
                 <input type="submit" value="Enviar" class="button">
+                <div id="result"></div>
             </form>
         </div>
     </section>
@@ -185,6 +191,7 @@
         <p>&copy; Félix Jhosel Peñaloza Ruiz. Todos los derechos reservados.</p>
     </footer>
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
